@@ -5,6 +5,108 @@
 	(uuid "c71e6603-966e-4443-ab39-18dbc296b6e4")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector:USB_B_Micro"
 			(pin_names
 				(offset 1.016)
@@ -3491,6 +3593,12 @@
 		(uuid "c4e50e0a-1e42-4178-99e4-4cbfeb445da9")
 	)
 	(junction
+		(at 82.55 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6c6651f-b7fd-42f1-b1fc-cb06dab87111")
+	)
+	(junction
 		(at 82.55 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3652,6 +3760,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 88.9) (xy 109.22 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09c03f05-52c4-4c08-9975-a73d9415a670")
+	)
+	(wire
+		(pts
 			(xy 54.61 125.73) (xy 54.61 127)
 		)
 		(stroke
@@ -3689,6 +3807,16 @@
 			(type default)
 		)
 		(uuid "17d38a53-d004-4b3c-a465-340833151e0e")
+	)
+	(wire
+		(pts
+			(xy 215.9 124.46) (xy 215.9 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "183c7a67-e634-4fa1-8487-d82aa1b2639e")
 	)
 	(wire
 		(pts
@@ -3869,6 +3997,16 @@
 			(type default)
 		)
 		(uuid "3cd09924-22cf-4b26-a144-7da4500adbef")
+	)
+	(wire
+		(pts
+			(xy 215.9 142.24) (xy 215.9 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46b01c49-56d3-41fc-a5ad-85b73d772dfd")
 	)
 	(wire
 		(pts
@@ -4152,6 +4290,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 140.97) (xy 217.17 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "803bb820-cf7b-4ae1-8cd3-2bddb06a67fd")
+	)
+	(wire
+		(pts
 			(xy 193.04 107.95) (xy 198.12 107.95)
 		)
 		(stroke
@@ -4292,6 +4440,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 130.81) (xy 217.17 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8ec1521-647f-467e-b68e-a2f9205b909d")
+	)
+	(wire
+		(pts
 			(xy 95.25 162.56) (xy 95.25 166.37)
 		)
 		(stroke
@@ -4329,6 +4487,16 @@
 			(type default)
 		)
 		(uuid "c45eee5e-ed87-4d4b-bb02-416d192de862")
+	)
+	(wire
+		(pts
+			(xy 215.9 125.73) (xy 217.17 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c52cb6c8-f429-4311-b45e-1e0474655baf")
 	)
 	(wire
 		(pts
@@ -4552,6 +4720,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 135.89) (xy 217.17 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb6f0b05-23ec-4f2d-bcd5-e75a09ae82c4")
+	)
+	(wire
+		(pts
 			(xy 190.5 105.41) (xy 198.12 105.41)
 		)
 		(stroke
@@ -4581,6 +4759,17 @@
 			(justify left bottom)
 		)
 		(uuid "09ee5c40-1b5a-49c0-a4e5-fe3fd510fcaa")
+	)
+	(label "V_MEASURE"
+		(at 96.52 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "28f41e29-5477-4c7e-a8a7-8c648bc6317d")
 	)
 	(label "G"
 		(at 104.14 66.04 0)
@@ -4758,6 +4947,17 @@
 		)
 		(uuid "87ca068d-7509-4637-8961-9ef866e2b845")
 	)
+	(label "SWCLK"
+		(at 208.28 130.81 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "975e5570-31cb-4115-984b-721ea96750e8")
+	)
 	(label "DIG3"
 		(at 101.6 81.28 0)
 		(fields_autoplaced yes)
@@ -4801,6 +5001,17 @@
 			(justify left bottom)
 		)
 		(uuid "aa44d637-fb14-47a9-b29f-d9c7a7bbbcd0")
+	)
+	(label "SWDIO"
+		(at 208.28 135.89 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ac871665-5ddc-4f38-8ce5-01bbb9013e97")
 	)
 	(label "DIG3"
 		(at 240.03 110.49 180)
@@ -4889,6 +5100,140 @@
 			(justify left bottom)
 		)
 		(uuid "fab574a7-ec78-4bb0-aa8b-5b85b96fd532")
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 217.17 135.89 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "073cf883-0c01-4d78-85ed-90844b3ff8a9")
+		(property "Reference" "TP3"
+			(at 222.25 134.6199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SWDIO"
+			(at 222.25 137.1599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 217.17 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 217.17 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3bc2e178-029b-4469-910d-5bd4eb139a01")
+		)
+		(instances
+			(project "battery_voltmeter"
+				(path "/c71e6603-966e-4443-ab39-18dbc296b6e4"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 217.17 130.81 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f68d484-b5de-4313-9b9f-f76be5b006a8")
+		(property "Reference" "TP2"
+			(at 222.25 129.5399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SWCLK"
+			(at 222.25 132.0799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 217.17 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 217.17 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88054eac-0b17-4989-af5d-394558011de1")
+		)
+		(instances
+			(project "battery_voltmeter"
+				(path "/c71e6603-966e-4443-ab39-18dbc296b6e4"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R_Small")
@@ -5940,6 +6285,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 215.9 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3a58c30c-0cdc-4f44-a729-31b8ea422a1b")
+		(property "Reference" "#PWR020"
+			(at 215.9 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 215.9 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 215.9 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73978040-376e-4e36-89a2-3282e89ab392")
+		)
+		(instances
+			(project "battery_voltmeter"
+				(path "/c71e6603-966e-4443-ab39-18dbc296b6e4"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 182.88 120.65 90)
 		(unit 1)
@@ -6291,6 +6701,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 215.9 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "65c34c72-3370-4801-9647-83eb6803a53f")
+		(property "Reference" "#PWR011"
+			(at 215.9 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 215.9 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 215.9 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc427877-7795-40f1-9f61-bd0ef95993a7")
+		)
+		(instances
+			(project "battery_voltmeter"
+				(path "/c71e6603-966e-4443-ab39-18dbc296b6e4"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 149.86 58.42 0)
 		(unit 1)
@@ -6415,74 +6890,6 @@
 			(project "battery_voltmeter"
 				(path "/c71e6603-966e-4443-ab39-18dbc296b6e4"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 54.61 127 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6f775582-3c13-4d31-88f0-c2315fbae630")
-		(property "Reference" "#FLG01"
-			(at 52.705 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 50.8 126.9999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 54.61 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 54.61 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 54.61 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "43e2415d-6853-4ceb-bca7-7a98cb11c879")
-		)
-		(instances
-			(project "battery_voltmeter"
-				(path "/c71e6603-966e-4443-ab39-18dbc296b6e4"
-					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -6802,6 +7209,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 82.55 109.22 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "942617d0-4966-4eca-9fba-7b944554832c")
+		(property "Reference" "#FLG01"
+			(at 84.455 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 86.36 109.2201 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 82.55 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3bd4521-8084-4d32-bb83-4da17a397539")
+		)
+		(instances
+			(project "battery_voltmeter"
+				(path "/c71e6603-966e-4443-ab39-18dbc296b6e4"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 69.85 44.45 0)
 		(unit 1)
@@ -6925,6 +7400,15 @@
 			)
 		)
 		(property "Description" "Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252"
+			(at 69.85 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C58069"
 			(at 69.85 127 0)
 			(effects
 				(font
@@ -7362,6 +7846,73 @@
 			(project "battery_voltmeter"
 				(path "/c71e6603-966e-4443-ab39-18dbc296b6e4"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 217.17 140.97 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca9612b4-7e77-4a6e-8a97-6635a5285833")
+		(property "Reference" "TP4"
+			(at 222.25 139.6999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 222.25 142.2399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 217.17 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 217.17 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b702320-0a4e-4adb-88c1-7e27812325da")
+		)
+		(instances
+			(project "battery_voltmeter"
+				(path "/c71e6603-966e-4443-ab39-18dbc296b6e4"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -7855,6 +8406,73 @@
 			(project "battery_voltmeter"
 				(path "/c71e6603-966e-4443-ab39-18dbc296b6e4"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 217.17 125.73 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0f55247-48a5-47ad-b973-a295fc05d5a4")
+		(property "Reference" "TP1"
+			(at 222.25 124.4599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 222.25 126.9999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 217.17 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 217.17 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5258f9f0-c109-4a57-9caf-c55bd609f938")
+		)
+		(instances
+			(project "battery_voltmeter"
+				(path "/c71e6603-966e-4443-ab39-18dbc296b6e4"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
