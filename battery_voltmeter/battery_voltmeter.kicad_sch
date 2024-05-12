@@ -4661,16 +4661,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 62.23) (xy 220.98 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c01d2f03-4076-42f4-9084-a1290b138940")
-	)
-	(wire
-		(pts
 			(xy 104.14 68.58) (xy 109.22 68.58)
 		)
 		(stroke
@@ -4741,7 +4731,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 59.69) (xy 218.44 59.69)
+			(xy 204.47 67.31) (xy 218.44 67.31)
 		)
 		(stroke
 			(width 0)
@@ -4931,6 +4921,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 62.23) (xy 220.98 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb642bac-1c87-41f5-b5b4-af5bc087ad02")
+	)
+	(wire
+		(pts
 			(xy 208.28 135.89) (xy 217.17 135.89)
 		)
 		(stroke
@@ -5082,7 +5082,7 @@
 		(uuid "5962c456-7a70-4bbd-b082-d01d4bb2dd44")
 	)
 	(label "V_MEASURE"
-		(at 204.47 59.69 0)
+		(at 204.47 67.31 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6573,7 +6573,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer_Small")
-		(at 220.98 59.69 180)
+		(at 220.98 67.31 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6582,7 +6582,7 @@
 		(fields_autoplaced yes)
 		(uuid "3e82c4e9-f9e6-4709-a484-aa647704f786")
 		(property "Reference" "RV1"
-			(at 223.52 58.4199 0)
+			(at 223.52 66.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6591,7 +6591,7 @@
 			)
 		)
 		(property "Value" "5k"
-			(at 223.52 60.9599 0)
+			(at 223.52 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6600,7 +6600,7 @@
 			)
 		)
 		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
-			(at 220.98 59.69 0)
+			(at 220.98 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6609,7 +6609,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 220.98 59.69 0)
+			(at 220.98 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6618,7 +6618,7 @@
 			)
 		)
 		(property "Description" "Potentiometer"
-			(at 220.98 59.69 0)
+			(at 220.98 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6627,7 +6627,7 @@
 			)
 		)
 		(property "LCSC" "C118907"
-			(at 220.98 59.69 0)
+			(at 220.98 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7712,7 +7712,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 220.98 67.31 0)
+		(at 220.98 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7721,7 +7721,7 @@
 		(fields_autoplaced yes)
 		(uuid "95e414f3-0b0b-4e19-a689-d88f40f18160")
 		(property "Reference" "R9"
-			(at 223.52 66.0399 0)
+			(at 223.52 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7730,7 +7730,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 223.52 68.5799 0)
+			(at 223.52 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7739,7 +7739,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 220.98 67.31 0)
+			(at 220.98 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7748,7 +7748,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 220.98 67.31 0)
+			(at 220.98 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7757,7 +7757,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 220.98 67.31 0)
+			(at 220.98 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7766,7 +7766,7 @@
 			)
 		)
 		(property "LCSC" "C25804"
-			(at 220.98 67.31 0)
+			(at 220.98 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
