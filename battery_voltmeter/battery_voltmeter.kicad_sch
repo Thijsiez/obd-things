@@ -7729,7 +7729,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22R"
+		(property "Value" "10k"
 			(at 223.52 68.5799 0)
 			(effects
 				(font
@@ -7765,7 +7765,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C23345"
+		(property "LCSC" "C25804"
 			(at 220.98 67.31 0)
 			(effects
 				(font
