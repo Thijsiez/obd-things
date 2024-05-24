@@ -38,6 +38,7 @@ unsigned long nextMeasurementMillis = 0;
 uint8_t digitValue[DIGITS] = {0, 0, 0};
 
 void setup() {
+  analogReadResolution(12);
   pinMode(MEASURE, INPUT);
   for (uint8_t i = 0; i < DIGITS; i++) {
     pinMode(digitPins[i], OUTPUT);
